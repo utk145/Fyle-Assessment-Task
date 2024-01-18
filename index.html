@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHunter</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=1x&id=11444&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <header>
+        <h1>GitHub Finder Fyle Test App</h1>
+        <input type="number" id="repos_per_page_input" placeholder="Repos per page" min="10" max="100" value="10">
+        <input type="text" id="username_input" placeholder="Enter username">
+        <button id="search_btn">Search</button>
+    </header>
+
+    <section id="user_profile" style="display: none;">
+        <img id="avatar" src="" alt="Profile Image">
+        <div id="userDetails">
+            <p id="username"></p>
+            <p id="location"></p>
+            <p id="bio"></p>
+            <a id="blog" href="" target="_blank"></a>
+            <a id="githubLink" href="" target="_blank">GitHub Profile</a>
+        </div>
+    </section>
+
+    <main id="repositories">
+
+    </main>
+
+    <footer>
+        <div id="pagination">
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
